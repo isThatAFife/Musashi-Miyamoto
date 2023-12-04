@@ -28,3 +28,25 @@ body {
     flex-direction: column;
     background-color: burlywood;
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    display: inline;
+    padding: 10px;
+}
+
+/* Main */
+#biography {
+    text-align: end;
+    align-self: flex-end;
+}

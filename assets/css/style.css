@@ -46,19 +46,37 @@ header a {
 }
 
 /* Main */
-#biography {
-    text-align: end;
-    align-self: flex-end;
+.flex-container {
+    display: flex;
+    flex-direction: column;
 }
+
+.biography {
+    justify-content: right;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 10px;
+    flex-shrink: 1;
+}
+
+.biography>p {
+    width: 70%;
+}
+
+
 
 /* ---Media queries--- */
 
 /* Media Queries: Tablets */
 @media screen and (min-width: 768px) {
-
+    .flex-container {
+        
+    }
 }
 
 /* Media Queries: Laptops & Desktops */
 @media screen and (min-width: 992px) {
-    
+    .flex-container {
+        
+    }
 }

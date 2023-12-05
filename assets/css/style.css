@@ -107,6 +107,12 @@ nav {
     padding: 30px 10px 30px;
   }
 
+  /* Footer */
+  footer {
+    position: sticky;
+    bottom: 0;
+  }
+
 /* ---Media queries--- */
 
 /* Media Queries: Tablets */

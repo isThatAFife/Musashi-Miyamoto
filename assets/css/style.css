@@ -45,7 +45,36 @@ header a {
     padding: 10px;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main */
+#intro {
+    padding:20px 0 20px;
+}
+
 #biography {
     display: flex;
     flex-direction: column;
@@ -74,11 +103,25 @@ header a {
     #biography {
         flex-direction: row;
     }
+    .nav-toggle-label {
+        display: none;
+    }
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        background-color: inherit;
+    }
+
+    #menu {
+        display: flex;
+    }
 }
 
 /* Media Queries: Laptops & Desktops */
 @media screen and (min-width: 992px) {
-    .flex-container {
-        
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }   
     }
-}

@@ -46,31 +46,33 @@ header a {
 }
 
 /* Main */
+#biography {
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
 }
 
-.biography {
+.bioright {
     justify-content: right;
     align-items: flex-end;
     text-align: right;
-    padding-right: 10px;
-    flex-shrink: 1;
 }
 
-.biography>p {
-    width: 70%;
-}
-
-
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
 /* ---Media queries--- */
 
 /* Media Queries: Tablets */
 @media screen and (min-width: 768px) {
-    .flex-container {
-        
+    #biography {
+        flex-direction: row;
     }
 }
 

@@ -16,6 +16,7 @@ body {
     background-color: antiquewhite;
     color: black;
     font-family: 'Merriweather', sans-serif;
+    padding-top: 113px;
 }
 
 /* Header */
@@ -29,7 +30,7 @@ body {
     background-color: burlywood;
     z-index: 99;
     box-shadow: 0px 5px 8px 2px #3a3a3a;
-    position: sticky; 
+    position: fixed; 
     top: 0;
 }
 
@@ -76,18 +77,14 @@ nav {
 }
 
 /* Main */
-main {
-    padding-top: 113px;
-}
+.section {
+    border-top: 113px solid transparent;
+    margin-top: -113px;
+  }
 
 #intro {
-    padding:30px 0 20px;
+    padding:20px 0 20px;
 }
-
-/* #biography {
-    display: flex;
-    flex-direction: column;
-} */
 
 #biography {
     display: grid;
@@ -102,10 +99,12 @@ main {
 .bioright {
     grid-column-start: 2;
     grid-column-end: 4;
+    padding: 20px;
 }
 
 #timeline {
-    grid-row-start: 4;
+    grid-row-start: 2;
+    grid-column-start: 2;
 }
 
 /* .flex-container {

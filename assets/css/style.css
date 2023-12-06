@@ -76,26 +76,49 @@ nav {
 }
 
 /* Main */
+main {
+    padding-top: 113px;
+}
+
 #intro {
     padding:30px 0 20px;
 }
 
+/* #biography {
+    display: flex;
+    flex-direction: column;
+} */
+
 #biography {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns:25%;
+    grid-template-rows: auto;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
+.bioleft {
+    grid-column-start: 1;
 }
 
+.bioright {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#timeline {
+    grid-row-start: 4;
+}
+
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+} */
+/* 
 .bioright {
     justify-content: right;
     align-items: flex-end;
     text-align:justify;
     padding-left: 10px;
-}
+} */
 
 .responsive {
     width: 100%;

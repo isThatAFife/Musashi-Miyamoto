@@ -37,6 +37,10 @@ body {
     background: url(../images/vintage-concrete.webp);
 }
 
+#logo {
+    font-size: 300%;
+}
+
 header a {
     text-decoration: none;
     color: inherit;

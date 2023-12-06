@@ -16,7 +16,9 @@ body {
     background-color: antiquewhite;
     color: black;
     font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
     padding-top: 113px;
+    /* text-shadow: 1px 1px 2px rgb(216, 198, 181); */
 }
 
 /* Header */
@@ -32,6 +34,7 @@ body {
     box-shadow: 0px 5px 8px 2px #3a3a3a;
     position: fixed; 
     top: 0;
+    background: url(../images/vintage-concrete.webp);
 }
 
 header a {
@@ -77,6 +80,10 @@ nav {
 }
 
 /* Main */
+#main {
+    background: url(../images/ricepaper-v3.webp);
+}
+
 .section {
     border-top: 113px solid transparent;
     margin-top: -113px;
@@ -85,18 +92,6 @@ nav {
 #intro {
     padding:20px 0 20px;
 }
-
-/* #biography {
-    display: flex;
-}
-
-.bio {
-    flex-direction: column;
-} */
-
-
-
-
 
 .responsive {
     width: 100%;

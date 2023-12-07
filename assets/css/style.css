@@ -95,7 +95,7 @@ nav {
     text-align: center;
 }
 
-body h2 {
+main h2 {
     text-align: center;
 }
 
@@ -205,8 +205,20 @@ footer {
         grid-column: span 4;
     }
 
+    .biothree {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        padding: 20px;
+    }
+
+    .edo {
+        grid-column-start: 3;
+    }
+
+
+  
     #timeline {
-        grid-row-start: 3;
+        grid-row-start: 4;
         grid-column: span 2/4;
     }
 

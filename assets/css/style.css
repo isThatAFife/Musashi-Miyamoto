@@ -89,8 +89,12 @@ nav {
     background: url(../images/ricepaper-v3.webp);
 }
 
-h1, h2, h3 {
-    font-size: 140%;
+h1, h3 {
+    font-size: 160%;
+}
+
+h2 {
+    font-size: 190%;
 }
 
 .section {
@@ -107,11 +111,16 @@ h1, h2, h3 {
     text-align: center;
 }
 
+.introimg {
+    
+}
+
 .responsive {
-    width: 100%;
+    width: auto;
     height: auto;
     max-width:100%;
-    padding: 0 0 20px;
+    border: solid;
+    box-shadow: 5px 5px 25px #3a3a3a;
   }
 
 .section p {
@@ -138,8 +147,11 @@ h1, h2, h3 {
     padding-left: 25px;
 }
 
-.biotwo {
-
+.duelimage {
+    height: auto;
+    max-width:100%;
+    padding: 0 0 20px;
+    text-align: center;
 }
 
   /* Footer */
@@ -193,7 +205,6 @@ h1, h2, h3 {
         flex-wrap: wrap;
     }
 
-    
 }
 
 /* Media Queries: Laptops & Desktops */

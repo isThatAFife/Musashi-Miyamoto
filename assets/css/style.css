@@ -224,10 +224,8 @@ footer {
         grid-column: span 4;
     }
 
-    .biothree {
-        grid-column-start: 2;
-        grid-column-end: 5;
-        padding: 20px;
+    .edo {
+        
     }
 
 

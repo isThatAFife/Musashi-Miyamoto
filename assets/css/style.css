@@ -195,10 +195,6 @@ label{
     text-align: center;
 }
 
-.fix {
-    position:fixed;
-    bottom:0px;
-}
 
 /* Footer */
 footer {
@@ -292,7 +288,6 @@ footer {
          grid-row: 1;
     }    
 
-    /* Signup page */
 
 
 
@@ -302,12 +297,5 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-    }
-}
-
-/* Media Queries: Special for signup page */
-@media screen and (min-width: 1900px) {
-    .fix {
-        top: 9%;
     }
 }

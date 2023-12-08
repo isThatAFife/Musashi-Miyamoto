@@ -88,12 +88,6 @@ nav {
 #main {
     background: url(../images/ricepaper-v3.webp);
 }
-.signupbody {
-    width: 100%;
-    height: 100%;
-    background: url(../images/ricepaper-v3.webp);
-    text-align: center;
-}
 
 main h2 {
     text-align: center;
@@ -122,6 +116,8 @@ h2 {
     text-align: center;
 }
 
+/* Responsive Image Classes */
+
 .responsive {
     width: auto;
     height: auto;
@@ -129,6 +125,15 @@ h2 {
     border: solid;
     box-shadow: 5px 5px 25px #3a3a3a;
 }
+
+.duelimage {
+    height: auto;
+    max-width: 100%;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+/* Text align classes */
 
 .section p {
     margin: 20px auto;
@@ -154,12 +159,11 @@ h2 {
     padding-left: 25px;
 }
 
-.duelimage {
-    height: auto;
-    max-width: 100%;
-    padding: 0 0 20px;
-    text-align: center;
-}
+/* Pop-culture section */
+
+
+
+/* Newsletter section */
 
 #newsletter {
     text-align: center;
@@ -174,6 +178,15 @@ h2 {
     margin: 10px 0 10px 0;
 }
 
+/* Signup page styles */
+
+.signupbody {
+    width: 100%;
+    height: 100%;
+    background: url(../images/ricepaper-v3.webp);
+    text-align: center;
+}
+
 /* Footer */
 footer {
     position: sticky;
@@ -183,7 +196,8 @@ footer {
 /* ---Media queries--- */
 
 /* Media Queries: Tablets */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
+    /* Biography */
     #biography {
         display: grid;
         grid-template-columns: 25%;
@@ -215,12 +229,14 @@ footer {
         grid-column-start: 3;
     }
 
-
+/* Timeline */
   
     #timeline {
         grid-row-start: 4;
         grid-column: span 2/4;
     }
+
+    /* Menu */
 
     .nav-toggle-label {
         display: none;
@@ -237,6 +253,23 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
+
+    /* Pop culture */
+
+    #pop-culture {
+        display: grid;
+        grid-template-columns: 25%;
+    }
+
+    #pop-culture>div {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    #pop-culture img {
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }    
 
 }
 

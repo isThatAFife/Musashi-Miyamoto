@@ -159,10 +159,6 @@ h2 {
     padding-left: 25px;
 }
 
-/* Pop-culture section */
-
-
-
 /* Newsletter section */
 
 #newsletter {
@@ -176,6 +172,16 @@ h2 {
 .text-input {
     padding: 0 5px;
     margin: 10px 0 10px 0;
+    display: inline-block;
+    float: center;
+}
+
+label{
+    display: inline-block;
+    float: center;
+    clear: right;
+    width: 120px;
+    text-align: right;
 }
 
 /* Signup page styles */

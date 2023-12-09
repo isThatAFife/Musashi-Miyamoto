@@ -201,6 +201,7 @@ footer {
     position: sticky;
     bottom: 0;
     background: url(../images/vintage-concrete.webp);
+    box-shadow: 0px -5px 12px #3a3a3a;
 }
 
 #social-networks {

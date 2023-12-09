@@ -37,10 +37,6 @@ body {
     background: url(../images/vintage-concrete.webp);
 }
 
-#logo {
-    font-size: 300%;
-}
-
 header a {
     text-decoration: none;
     color: inherit;
@@ -82,6 +78,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    display: contents;
 }
 
 /* Main */
@@ -93,14 +90,6 @@ main h2 {
     text-align: center;
 }
 
-h1,
-h3 {
-    font-size: 160%;
-}
-
-h2 {
-    font-size: 190%;
-}
 
 .section {
     border-top: 113px solid transparent;
@@ -222,6 +211,23 @@ footer {
 
 /* Media Queries: Tablets */
 @media screen and (min-width: 800px) {
+
+/* Title */
+    #logo {
+        font-size: 300%;
+    }
+
+    /* Headers */
+
+    h1,
+h3 {
+    font-size: 160%;
+}
+
+h2 {
+    font-size: 190%;
+}
+
     /* Biography */
     .grid {
         display: grid;
@@ -314,4 +320,28 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+@media screen and (max-width: 1009px) {
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 799px) {
+    main {
+        /* Undo above rule pushing content down */
+        margin-top: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 286px) {
+    main {
+        /* Push main content down on narrow screens to prevent header overlap */
+        margin-top: 50px;
+    }
+    
 }

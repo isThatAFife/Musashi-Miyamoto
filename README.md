@@ -226,4 +226,34 @@ Testing was ongoing throughout the entire build of the website. I used Chrome de
 
 ### Testing User Stories
 
+  First Time Visitor Goals
+
+- I want to quickly and clearly find out what the site is about.
+- I want to be able to navigate the site easily.
+- I want to be able to learn as much as I can about the subject matter.
+- I want to be able to sign up for a newsletter in order to stay updated.
+
+### Returning Visitor Goals
+
+- I want to refresh my knowledge of the subject matter.
+- I want to use the website as research.
+
 ### Lighthouse
+
+#### Main Page
+
+#### Thank You Page
+
+### Full Testing
+
+---
+
+## Credits
+
+### Code Used
+
+### Content
+
+### Media
+
+### Acknowledgements

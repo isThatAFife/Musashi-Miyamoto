@@ -89,7 +89,7 @@ main h2 {
     text-align: center;
 }
 
-
+/* Solution found on Stack Overflow */
 .section {
     border-top: 113px solid transparent;
     margin-top: -113px;

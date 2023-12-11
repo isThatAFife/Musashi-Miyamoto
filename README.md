@@ -229,14 +229,20 @@ Testing was ongoing throughout the entire build of the website. I used Chrome de
   First Time Visitor Goals
 
 - I want to quickly and clearly find out what the site is about.
+    - The introduction section is the first thing users see and gives a brief but clear overview of the purpose of the site.
 - I want to be able to navigate the site easily.
+    - The navbar is visible at the top of the page at all times, allowing users to access every section no matter where they are on the page.
 - I want to be able to learn as much as I can about the subject matter.
+    - The biography section follows the life of the subject from early age until death and includes all important recorded events throughout his life.
 - I want to be able to sign up for a newsletter in order to stay updated.
+    - There is a very simple form on the main page to allow users to sign up for the newsletter.
 
 ### Returning Visitor Goals
 
 - I want to refresh my knowledge of the subject matter.
+    - The navbar allows users to quickly access the specific information they are looking for, so return visitors will not have to search or scroll very far for the information they are looking for.
 - I want to use the website as research.
+    - All information is taken from reputable sources and a list of references can be found in the credits section of this document.
 
 ### Lighthouse
 
@@ -245,6 +251,23 @@ Testing was ongoing throughout the entire build of the website. I used Chrome de
 #### Thank You Page
 
 ### Full Testing
+
+To fully test my website I performed the following testing using a number of browsers (Chrome, Safari, Mozilla Firefox, Duckduckgo) and devices (Mac Studio M1 Ultra, Macbook Pro 16", OnePlus 10 Android phone, iPhone 13 pro).
+
+I also viewed both pages in Chrome developer tools to ensure they were responsive on all screen sizes.
+
+#### Links
+
+1. Test each link on the main page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+2. Test "Return" link on Thank You page. Link worked as expected and returned the browser to the main page in the same browser tab.
+
+#### Newsletter Form
+
+1. Test the sign up form. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the first name field. I then filled in the first name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the last name field. I filled out the first and last name forms and tried to submit the form. The form worked correctly and asked the user to fill in the email field. I filled out the first name, last name and email field and tried to submit the form. The form then opens the thank you page in the same browser window.
+2. I tried to submit the form with only an email address - the form directs the user to fill in the first name field. I filled out the first name and email fields and tried to submit the form. The form then directs the user to fill out the last name field. I filled in the first name, email and last name field and submitted the form. The form then opens the thank you page in the same browser window.
+3. I tried to submit the form with just the last name field filled in and the form directed me to fill in the first name field. I filled in the last name and email fields and tried again to submit. The form asks the user to fill in the first name field. I filled out the first name, last name and email fields and submitted the form. the form then opens the thank you page in the same browser window.
+4. I tried to submit the form with only the textarea field filled in. The form directs the user to fill in the name field. I filled in the name and textarea field and submitted the form. The form directs the user to fill in the email field. I filled in the name, email and textarea fields and submitted the form. The form then opens the thank you page in the same browser window.
+5. I tried submitting the form without any information filled in. The form directs the user to fill in the first name field. It then goes on to ask the user to complete the last name and email fields if they are not filled out. The form can then be submitted and will open the thank you page in the same browser window.
 
 ---
 

@@ -18,7 +18,6 @@ body {
     font-family: 'Merriweather', sans-serif;
     font-weight: 400;
     padding-top: 113px;
-    /* text-shadow: 1px 1px 2px rgb(216, 198, 181); */
 }
 
 /* Header */
@@ -97,6 +96,8 @@ main h2 {
     padding: 30px 10px 30px;
 }
 
+/* Introduction */
+
 #intro {
     padding: 30px 20px 20px;
 }
@@ -104,6 +105,67 @@ main h2 {
 #intro h2 {
     text-align: center;
 }
+
+/* Newsletter section */
+
+#newsletter {
+    text-align: center;
+}
+
+#newsletter h4 {
+    padding: 20px 0 20px;
+}
+
+.text-input {
+    padding: 0 5px;
+    margin: 10px 0 10px 0;
+    display: inline-block;
+}
+
+label {
+    display: inline-block;
+    clear: right;
+    width: 120px;
+    text-align: right;
+}
+
+.join-button {
+    margin-top: 10px;
+}
+
+/* Signup page styles */
+
+.signupbody {
+    width: 100%;
+    height: 100%;
+    background: url(../images/ricepaper-v3.webp);
+    text-align: center;
+}
+
+
+/* Footer */
+footer {
+    position: sticky;
+    bottom: 0;
+    background: url(../images/vintage-concrete.webp);
+    box-shadow: 0px -5px 12px #3a3a3a;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* Utility Classes */
 
 /* Responsive Image Classes */
 
@@ -148,71 +210,12 @@ main h2 {
     padding-left: 25px;
 }
 
-/* Newsletter section */
-
-#newsletter {
-    text-align: center;
-}
-
-#newsletter h4 {
-    padding: 20px 0 20px;
-}
-
-.text-input {
-    padding: 0 5px;
-    margin: 10px 0 10px 0;
-    display: inline-block;
-}
-
-label{
-    display: inline-block;
-    clear: right;
-    width: 120px;
-    text-align: right;
-}
-
-.join-button {
-    margin-top: 10px;
-}
-
-/* Signup page styles */
-
-.signupbody {
-    width: 100%;
-    height: 100%;
-    background: url(../images/ricepaper-v3.webp);
-    text-align: center;
-}
-
-
-/* Footer */
-footer {
-    position: sticky;
-    bottom: 0;
-    background: url(../images/vintage-concrete.webp);
-    box-shadow: 0px -5px 12px #3a3a3a;
-}
-
-#social-networks {
-    text-align: center;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
 /* ---Media queries--- */
 
 /* Media Queries: Tablets */
 @media screen and (min-width: 800px) {
 
-/* Title */
+    /* Title */
     #logo {
         font-size: 300%;
     }
@@ -220,13 +223,31 @@ footer {
     /* Headers */
 
     h1,
-h3 {
-    font-size: 160%;
-}
+    h3 {
+        font-size: 160%;
+    }
 
-h2 {
-    font-size: 190%;
-}
+    h2 {
+        font-size: 190%;
+    }
+
+    /* Menu */
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     /* Biography */
     .grid {
@@ -251,8 +272,6 @@ h2 {
         grid-column: span 4;
     }
 
-
-
     /* Philosophy */
 
     .philleft {
@@ -272,24 +291,6 @@ h2 {
         grid-row: 2;
     }
 
-    /* Menu */
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-    }
-
-    #menu {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     /* Pop culture */
 
     #pop-culture {
@@ -301,18 +302,14 @@ h2 {
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row: 1;
-        padding:20px;
+        padding: 20px;
     }
 
     #pop-culture img {
         grid-column-start: 1;
         grid-column-end: 2;
-         grid-row: 1;
-    }    
-
-
-
-
+        grid-row: 1;
+    }
 }
 
 /* Media Queries: Laptops & Desktops */
@@ -327,7 +324,7 @@ h2 {
         /* Push main content down to accommodate larger header */
         margin-top: 60px;
     }
-    
+
 }
 
 @media screen and (max-width: 799px) {
@@ -335,7 +332,7 @@ h2 {
         /* Undo above rule pushing content down */
         margin-top: 0px;
     }
-    
+
 }
 
 @media screen and (max-width: 286px) {
@@ -343,5 +340,5 @@ h2 {
         /* Push main content down on narrow screens to prevent header overlap */
         margin-top: 50px;
     }
-    
+
 }

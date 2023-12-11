@@ -210,3 +210,20 @@ To clone the Musashi-Miyamoto repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 - - -
+
+## Testing
+
+Testing was ongoing throughout the entire build of the website. I used Chrome developer tools extensively during development to troubleshoot issues.
+
+### W3C Validator
+
+### Solved Bugs
+
+1. On some screen sizes the header would overlap with the content meant to be displayed at the top of the screen. I found a thread on Stack Overflow that recommended adding a transparent border the same size as the header to the top of each of my sections. This seemed to fix the issue.
+2. 
+
+### Known Bugs
+
+### Testing User Stories
+
+### Lighthouse

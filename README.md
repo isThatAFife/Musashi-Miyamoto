@@ -246,7 +246,11 @@ Testing was ongoing throughout the entire build of the website. I used Chrome de
 
 ### Lighthouse
 
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+
 #### Main Page
+
+
 
 #### Thank You Page
 

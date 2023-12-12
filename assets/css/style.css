@@ -89,7 +89,11 @@ main h2 {
     text-align: center;
 }
 
-/* Solution found on Stack Overflow */
+h3 {
+    padding-top: 20px;
+}
+
+/* Solution found on Stack Overflow for preventing header from overlapping content */
 .section {
     border-top: 113px solid transparent;
     margin-top: -113px;

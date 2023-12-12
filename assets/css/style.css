@@ -182,7 +182,6 @@ footer {
     max-width: 100%;
     border: solid;
     box-shadow: 5px 5px 25px #3a3a3a;
-    aspect-ratio: auto 640/480;
 }
 
 .duelimage {

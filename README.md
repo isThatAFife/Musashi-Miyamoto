@@ -148,7 +148,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
   ### Languages Used
 
-  HTML5 and CSS were used to create this website.
+  HTML5 and CSS were used to create this website, with JavaScript used for some menu functionality.
 
   ### Frameworks, Libraries & Programs Used
 

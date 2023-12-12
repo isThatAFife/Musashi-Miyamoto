@@ -250,7 +250,9 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 #### Main Page
 
+Initial testing: 
 
+[Lighthouse Testing for Desktop Main Page - Test 1](docs/testing/lighthouse/mm-lighthousedesktopreport.pdf)
 
 #### Thank You Page
 

@@ -254,6 +254,8 @@ Initial testing:
 
 [Lighthouse Testing for Desktop Main Page - Test 1](docs/testing/lighthouse/mm-lighthousedesktopreport.pdf)
 
+[Lighthouse Testing for Mobile Main Page - Test 1](docs/testing/lighthouse/mm-lighthousemobilereport.pdf)
+
 #### Thank You Page
 
 ### Full Testing

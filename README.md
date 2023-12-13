@@ -16,7 +16,6 @@ Find the live site [here]
   * [User Stories](#user-stories)
 
 * [Design](#design)
-  * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
@@ -124,6 +123,8 @@ Wireframes were created for mobile and desktop.
 
 The website has two pages: the main page containing all information under separate headings which are accessible through a navbar at the top of the page. The second page is a thank you page displayed after users have signed up for the newsletter using the form on the main page. It also includes a return button to return users to the main page.
 
+### General Features on Each Page
+
 - The main page has:
   - A responsive navbar at the top allowing users to quickly navigate the page. To allow good UX, the menu items are replaced with a "burger button" using media queries for users on mobile devices.
 
@@ -140,7 +141,7 @@ The website has two pages: the main page containing all information under separa
 
   ![screenshot of thank you page](docs/screenshots/thanks.png)
 
-- Future implementations:
+### Future Implementations
   - An events calendar to showcase any events relating to Musashi Miyamoto (Lectures, movie screenings, etc.)
 
 ## Accessibility
@@ -327,5 +328,8 @@ Images found on [Niten](http://www.niten.org/english/instituto/miyamoto_musashi/
 I would like to thank the following people who helped me along the way in completing my first milestone project:
 
 [Lauren-Nicole Popich](https://github.com/CluelessBiker) - My Code Institute mentor
+
 [Peter Neumann](https://github.com/peter-neumann-dev) - Creator of responsive image linter, which was a huge help in improving the site performance
+
 Ai Okuyama - For helping me test the website on various devices
+

@@ -41,7 +41,7 @@ Find the live site [here]
   * [Code Used](#code-used)
   * [Content](#content)
   * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+  * [Acknowledgements](#acknowledgements)
 
   ---
 

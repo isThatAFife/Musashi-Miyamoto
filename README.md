@@ -124,10 +124,19 @@ The website has two pages: the main page containing all information under separa
 
 - The main page has:
   - A responsive navbar at the top allowing users to quickly navigate the page. To allow good UX, the menu items are replaced with a "burger button" using media queries for users on mobile devices.
+
+  ![screenshot of navbar](docs/screenshots/navbar.png)
+
+  ![screenshot of navbar on mobile](docs/screenshots/burgernavbar.png)
+
   - A footer that includes links to all major social medias.
+
+  ![screenshot of footer](docs/screenshots/footer.png)
 
 - The thank you page has:
   - A return button to allow users to return to the main page after signing up.
+
+  ![screenshot of thank you page](docs/screenshots/thanks.png)
 
 - Future implementations:
   - An events calendar to showcase any events relating to Musashi Miyamoto (Lectures, movie screenings, etc.)

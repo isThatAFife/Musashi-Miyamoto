@@ -259,13 +259,15 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 #### Main Page
 
-Initial testing: 
-
 [Lighthouse Testing for Desktop Main Page - Test 1](docs/testing/lighthouse/mm-lighthousedesktopreport.pdf)
 
 [Lighthouse Testing for Mobile Main Page - Test 1](docs/testing/lighthouse/mm-lighthousemobilereport.pdf)
 
 #### Thank You Page
+
+[Lighthouse Testing for Desktop Thank You Page - Test 1](docs/testing/lighthouse/thanks-lighthousedesktopreport.pdf)
+
+[Lighthouse Testing for Mobile Thank You Page - Test 1](docs/testing/lighthouse/thanks-lighthousemobilereport.pdf)
 
 ### Full Testing
 
@@ -292,8 +294,26 @@ I also viewed both pages in Chrome developer tools to ensure they were responsiv
 
 ### Code Used
 
+Form contents and footer code used on main page taken from [Love Running Project](https://github.com/isThatAFife/Love_Running)
+
+Javascript for burger menu found on [Stack Overflow](https://stackoverflow.com/questions/58193096/how-do-i-close-this-checkbox-menu-after-the-user-clicks-on-the-links-or-outside)
+
+Srcset ideal image sizes supplied by [Responsive Image Linter](https://chromewebstore.google.com/detail/responsive-image-linter/mnddginionlghpblkimpdalcecpnbjln)
+
 ### Content
+
+Biographical content taken from [Niten](http://www.niten.org/english/instituto/miyamoto_musashi/musashi-biografia), [Britannica](https://www.britannica.com/biography/Miyamoto-Musashi-Japanese-soldier-artist) and [Wikipedia](https://en.wikipedia.org/wiki/Miyamoto_Musashi).
+
+Philosophy content taken from [Niten](http://www.niten.org/english/instituto/miyamoto_musashi/musashi-biografia) and [The Book of Five Rings](https://amzn.eu/d/85dSdC0)
 
 ### Media
 
+Images found on [Niten](http://www.niten.org/english/instituto/miyamoto_musashi/musashi-biografia), [Wikipedia](https://en.wikipedia.org/wiki/Miyamoto_Musashi) and [Japan Travel](https://en.japantravel.com/kumamoto/musashizuka-park/15210). Thank You Page image taken from [Vagabond, by Takehiko Inoue](https://en.wikipedia.org/wiki/Vagabond_(manga))
+
 ### Acknowledgements
+
+I would like to thank the following people who helped me along the way in completing my first milestone project:
+
+[Lauren-Nicole Popich](https://github.com/CluelessBiker) - My Code Institute mentor
+[Peter Neumann](https://github.com/peter-neumann-dev) - Creator of responsive image linter, which was a huge help in improving the site performance
+Ai Okuyama - For helping me test the website on various devices

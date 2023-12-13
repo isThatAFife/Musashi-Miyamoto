@@ -6,6 +6,8 @@ Find the live site [here]
 
 [here]: https://isthatafife.github.io/Musashi-Miyamoto/
 
+![screenshot of site responsiveness](docs/screenshots/screenshot.png)
+
 ---
 
 ## Contents
@@ -183,6 +185,8 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
   [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
+  Responsive Image Linter - To optimise image sizing.
+
   ---
 
 ## Deployment & Local Development
@@ -226,12 +230,20 @@ Testing was ongoing throughout the entire build of the website. I used Chrome de
 
 ### W3C Validator
 
+[Index Page HTML](docs/testing/validator/w3c-index.png)
+
+[Signup Page HTML](docs/testing/validator/w3c-signup.png)
+
+[Index and Signup CSS](docs/testing/validator/w3c-css.png)
+
 ### Solved Bugs
 
 1. On some screen sizes the header would overlap with the content meant to be displayed at the top of the screen. I found a thread on Stack Overflow that recommended adding a transparent border the same size as the header to the top of each of my sections. This seemed to fix the issue.
-2. 
+2. On mobile devices the navbar menu would remain on screen after users clicked a link. I implemented the JavaScript file menu.js to fix this and make the menu disappear on user clicking a link.
 
 ### Known Bugs
+
+No known bugs at the moment.
 
 ### Testing User Stories
 
